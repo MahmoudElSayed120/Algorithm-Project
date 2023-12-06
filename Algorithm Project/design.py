@@ -5,20 +5,20 @@ import tkinter as tk
 class GraphDesign:
     # Define node coordinates at the class level
     node_coordinates = {
-        "Beirut": (100, 200),
-        "Tripoli": (120, 300),
-        "Sidon": (75, 100),
-        "Anout": (80, 75),
-        "Akkar": (140, 400),
-        "Jezzine": (200, 90),
-        "Zahla": (300, 180),
-        "Rashaya": (500, 85),
-        "Barja": (77, 105),
-        "Naqoura": (60, 0),
-        "Aley": (125, 180),
-        "Hemmana": (160, 190),
-        "Baabda": (102, 195),
-        "Bet ed Dine": (120, 150)
+        "Beirut": (350, 265),
+        "Tripoli": (450, 70),
+        "Sidon": (320, 435),
+        "Anout": (470, 375),
+        "Akkar": (450, 40),
+        "Jezzine": (400, 435),
+        "Zahla": (550, 265),
+        "Rashaya": (550, 435),
+        "Barja": (350, 345),
+        "Naqoura": (250, 570),
+        "Aley": (455, 225),
+        "Hemmana": (465, 265),
+        "Baabda": (400, 265),
+        "Bet ed Dine": (470, 335)
     }
 
     def __init__(self, window, graph):
